@@ -5,8 +5,6 @@ eureka:
 server:
   port: 8183
 spring:
-  application:
-    name: user-service
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
