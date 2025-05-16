@@ -18,4 +18,4 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
   boot:
-    message: "Hello Department Service !"
+    message: "Hello Department Service updated !"
