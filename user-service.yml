@@ -18,5 +18,5 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
    boot:
-    userMessage: "user-service updated!"
+    userMessage: "user-service is updated now !"
 
