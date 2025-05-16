@@ -17,4 +17,5 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
-
+  boot:
+    message: "Hello from API Gateway!"
