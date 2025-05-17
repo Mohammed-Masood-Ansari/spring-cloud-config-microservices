@@ -19,3 +19,15 @@ spring:
     show-sql: true
   boot:
     message: "Hello Department Service updated now! 17/05/2025"
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+
+logging:
+  pattern:
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+  level:
+    org:
+      springframework:
+        web: DEBUG
