@@ -5,6 +5,8 @@ eureka:
 server:
   port: 8183
 spring:
+  boot:
+    usermessage: "user-service is updated now 17/05/2025!"
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: root
@@ -19,8 +21,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
-  boot:
-    userMessage: "user-service is updated now 17/05/2025!"
+ 
 
 management:
   tracing:
