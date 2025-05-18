@@ -6,7 +6,7 @@ server:
   port: 8183
 spring:
   application:
-    name: department-services
+    name: user-service
   boot:
     usermessage: "user-service is updated now 17/05/2025!"
   datasource:
