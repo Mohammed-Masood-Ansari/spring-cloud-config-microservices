@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: department-services
+    name: product-services
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/microservices-may-2025
